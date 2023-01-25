@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #e0dbdb;
+
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+.avatar {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px rgba(0,0,0, .25);
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info_text  {
+    font-size: italic;
+    font-weight: bold;
+    margin-left: 40px;
+    
+color: rgb(53, 50, 50);
+}
+.info_text h4,h1{
+    margin-bottom: 5px;
+   
+}
+    @media (max-width: 550px){
+        .info {display: block;
+        text-align: center;}
+    }
+
+    .card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.bg-yellow {
+    background: rgb(255, 255, 218);
+}
+.bg-red{
+    background: rgb(255, 205, 205);
+}
+.bg-green {
+    
+    background: rgb(208, 252, 208);
+}
+
+a{
+    color: #455472;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: #000000;
+}
+
+
+.btn{
+    background: rgb(73, 71, 71);
+    padding: 15pz 20px;
+    color: #e0dbdb;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+        .btn:hover {
+            opacity: 0.6;
+            color: cyan;
+        }
+
+.list li{
+    color: #75787f;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+    .table td {
+        padding-bottom: 10px;
+    }
+        .table td:nth-child(2),.table td:nth-child(3) {
+            color: #86898f;
+        }
+
+
+.form h3 {
+    text-align: center;
+}
+    .form-row {
+        margin-bottom: 10px;
+        display: flex;
+
+}
+    .form-row .form-group {
+        /* display: inline-block; */
+        margin-right: 20px;
+        width: 50%;
+        /* width: calc(30% - 20px); */
+    }
+    @media (max-width: 550px) {
+        .form-row {
+            display: block;
+
+        }
+        .form-row , .form-group {
+           width: 100%; 
+           margin-right: 0px;
+           margin-bottom: 10px;
+        }
+    }
+    .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+   }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #ccc;
+            color: #000000;
+            padding: 15px 0 10px;
+            outline: none;
+            font-family: inherit;
+        }
