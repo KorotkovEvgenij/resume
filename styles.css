@@ -37,6 +37,9 @@ color: rgb(53, 50, 50);
     @media (max-width: 550px){
         .info {display: block;
         text-align: center;}
+        .info_text{
+            margin: auto;
+        }
     }
 
     .card {
